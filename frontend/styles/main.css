@@ -1,0 +1,66 @@
+.navbar-brand {
+  max-height: 50px;
+}
+
+.navbar-image {
+  padding-left: 30%;
+  max-height: 40px;
+}
+
+.navbar-nav ml-auto mr-3 {
+  font-size: larger;
+}
+
+.nav-link {
+  color: #da06da;
+  font-size: medium;
+  font-family: 'Segoe UI';
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding-right: 60%;
+  padding-left: 70%;
+  padding-bottom: 100%;
+  background: #242343;
+}
+
+.image {
+  -webkit-perspective: 3000px;
+          perspective: 3000px;
+  width: 50%;
+  position: absolute;
+  left: 45%;
+  top: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.image img {
+  -webkit-transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+          transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  -webkit-box-shadow: -80px 60px 15px 5px black;
+          box-shadow: -80px 60px 15px 5px black;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.image:hover img {
+  -webkit-transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+          transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.nama {
+  padding-left: 60%;
+  padding-right: 30%;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
